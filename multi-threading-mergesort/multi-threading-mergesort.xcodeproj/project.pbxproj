@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		454A9C3A13E6D4DF00018E9C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 454A9C3913E6D4DF00018E9C /* main.c */; };
+		454A9C3C13E6D4DF00018E9C /* multi_threading_mergesort.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 454A9C3B13E6D4DF00018E9C /* multi_threading_mergesort.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		454A9C3313E6D4DF00018E9C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				454A9C3C13E6D4DF00018E9C /* multi_threading_mergesort.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		454A9C3513E6D4DF00018E9C /* multi-threading-mergesort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "multi-threading-mergesort"; sourceTree = BUILT_PRODUCTS_DIR; };
+		454A9C3913E6D4DF00018E9C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		454A9C3B13E6D4DF00018E9C /* multi_threading_mergesort.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = multi_threading_mergesort.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		454A9C3213E6D4DF00018E9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		454A9C2A13E6D4DF00018E9C = {
+			isa = PBXGroup;
+			children = (
+				454A9C3813E6D4DF00018E9C /* multi-threading-mergesort */,
+				454A9C3613E6D4DF00018E9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		454A9C3613E6D4DF00018E9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				454A9C3513E6D4DF00018E9C /* multi-threading-mergesort */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		454A9C3813E6D4DF00018E9C /* multi-threading-mergesort */ = {
+			isa = PBXGroup;
+			children = (
+				454A9C3913E6D4DF00018E9C /* main.c */,
+				454A9C3B13E6D4DF00018E9C /* multi_threading_mergesort.1 */,
+			);
+			path = "multi-threading-mergesort";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		454A9C3413E6D4DF00018E9C /* multi-threading-mergesort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 454A9C3F13E6D4DF00018E9C /* Build configuration list for PBXNativeTarget "multi-threading-mergesort" */;
+			buildPhases = (
+				454A9C3113E6D4DF00018E9C /* Sources */,
+				454A9C3213E6D4DF00018E9C /* Frameworks */,
+				454A9C3313E6D4DF00018E9C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "multi-threading-mergesort";
+			productName = "multi-threading-mergesort";
+			productReference = 454A9C3513E6D4DF00018E9C /* multi-threading-mergesort */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		454A9C2C13E6D4DF00018E9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Guanshan Liu";
+			};
+			buildConfigurationList = 454A9C2F13E6D4DF00018E9C /* Build configuration list for PBXProject "multi-threading-mergesort" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 454A9C2A13E6D4DF00018E9C;
+			productRefGroup = 454A9C3613E6D4DF00018E9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				454A9C3413E6D4DF00018E9C /* multi-threading-mergesort */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		454A9C3113E6D4DF00018E9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454A9C3A13E6D4DF00018E9C /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		454A9C3D13E6D4DF00018E9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		454A9C3E13E6D4DF00018E9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		454A9C4013E6D4DF00018E9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		454A9C4113E6D4DF00018E9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		454A9C2F13E6D4DF00018E9C /* Build configuration list for PBXProject "multi-threading-mergesort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				454A9C3D13E6D4DF00018E9C /* Debug */,
+				454A9C3E13E6D4DF00018E9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		454A9C3F13E6D4DF00018E9C /* Build configuration list for PBXNativeTarget "multi-threading-mergesort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				454A9C4013E6D4DF00018E9C /* Debug */,
+				454A9C4113E6D4DF00018E9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 454A9C2C13E6D4DF00018E9C /* Project object */;
+}
