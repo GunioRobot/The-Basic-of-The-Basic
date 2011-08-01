@@ -98,6 +98,9 @@ void quicksort(unsigned int *numbers, int left, int right) {
         
         pthread_join(left_thread, NULL);
         pthread_join(right_thread, NULL);
+        
+        free(left_args);
+        free(right_args);
     }
 }
 

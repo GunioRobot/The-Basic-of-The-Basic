@@ -1,0 +1,37 @@
+1. big_O
+a big O notation complexity estimator in Python. It 
+use run-time empirical way to determine complexity.
+See "Analysis of algorithms" on wikipedia to check
+the drawback of it.
+
+2. multi-threading-quicksort
+real cross-platform multi-threading quicksort, but who need this. boring!
+
+3. multi-threading-mergesort
+similiarly...so I coded shoddily this time :P
+
+4. knapsack
+multi-threading as well. 0-1 knapsack problem. see
+"Knapsack problem" on wikipedia.
+
+5. travelling-salesman
+
+6. hashtable
+
+7. graph-bfs
+
+8. graph-dfs
+
+9. dijkstra
+
+10. a-star
+
+11. n-ary
+
+12. trie-trees
+
+13. red-black-tree
+
+14. splay-tree
+
+15. AVL-tree
