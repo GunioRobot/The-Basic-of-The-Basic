@@ -42,4 +42,5 @@ not implemented yet.
 
 12. AVL-tree
 simpler than red-black tree. see 'avl tree' on 
-wikipedia as well.
+wikipedia as well. may contains some bugs, I don't 
+know :)
