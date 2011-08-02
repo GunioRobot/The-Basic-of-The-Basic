@@ -17,31 +17,29 @@ multi-threading as well. 0-1 knapsack problem. see
 well.
 
 *5.tsp
-travelling-salesman problem.
+travelling-salesman problem. not implemented yet.
 
 6. hashtable
 a simple implementation of hashtable
 
-*7. graph-bfs
-
-*8. graph-dfs
-
-9. dijkstra
+7. dijkstra
 a simple sample. no magic.
 
-*10. a-star
+*8. a-star
+not implemented yet.
 
-*11. n-ary
-implementation of n-ary tree.
+*9. n-ary
+a implementation of n-ary tree. not implemented yet.
 
-*12. trie-trees
-
-13. red-black-tree
+10. red-black-tree
 red-black tree is a self-balancing tree. I just
 gave a try. Check 'reb-black tree' on wikipedia
 and understand properties, insert and delete 
 cases.
 
-*14. splay-tree
+*11. splay-tree
+not implemented yet.
 
-*15. AVL-tree
+12. AVL-tree
+simpler than red-black tree. see 'avl tree' on 
+wikipedia as well.
