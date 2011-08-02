@@ -92,6 +92,7 @@
 		4504419A13E7BBF80073FB0F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Guanshan Liu";
 			};
 			buildConfigurationList = 4504419D13E7BBF80073FB0F /* Build configuration list for PBXProject "AVL-tree" */;
